@@ -22,6 +22,8 @@ const CTA = ({ name, href, disabled = false }: CTAProps) => {
     <a
       href={href}
       className="flex justify-center w-full col-span-2 px-20 py-6 text-xl font-semibold text-white gradient"
+      target="_blank"
+      rel="noopener noreferrer"
     >
       {name}
     </a>
