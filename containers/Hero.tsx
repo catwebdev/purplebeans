@@ -44,9 +44,9 @@ const Hero = () => {
           </h1>
           <div className="flex flex-col mt-2 ">
             <p className="mb-[15px] text-lg text-start">
-              First ever BB 2.0 fork on Polygon network with Immutable
-              contract🔥 Earn 6-9% ROI daily, Audited contract with a huge APY
-              of 3285%
+              Stake, Earn & Play with one-stop DeFi Solution. Trade your
+              favourite Tokens & stake to Earn APY. Mint and Mine NFTs and
+              more... 🔥
             </p>
             <div className="flex flex-row gap-6 mb-6">
               <span className="flex items-center gap-2">
@@ -57,24 +57,12 @@ const Hero = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Whitepaper
-                </a>
-                <RiCheckboxCircleFill className="text-[#fe349d]" />
-              </span>
-              <span className="flex items-center gap-2">
-                <GoChevronRight />
-                <a
-                  className="border-b font-medium border-black hover:font-semibold hover:border-[#fe349d]"
-                  href="https://the-stamp.com/2023/02/purple-beans-bsc/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Audit
+                  Read Docs
                 </a>
                 <RiCheckboxCircleFill className="text-[#fe349d]" />
               </span>
             </div>
-            <CTA name="Buy Now" href="" />
+            <CTA name="Buy $PBNS Token" href="https://buypbns.com" />
             <TinySocials />
           </div>
         </div>

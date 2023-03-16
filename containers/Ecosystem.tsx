@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { GoChevronRight } from "react-icons/go";
+import { RiCheckboxCircleFill } from "react-icons/ri";
 
 import { GiJellyBeans } from "react-icons/gi";
 
@@ -40,18 +41,47 @@ const Ecosystem = () => {
               <span className="flex gap-2 card__title">
                 <span className="flex gap-2 font-medium">
                   <GoChevronRight />
-                  USDC dApp
+                  PurplebeansUSDC
                 </span>{" "}
                 <GiJellyBeans className="text-[#fe349d]" />
               </span>
               <span className="card__content">
                 <p>
-                  This tab will be linked with the present live staking dApp.
+                  Stake USDC and Earn 3% Daily with Immutable and Audited
+                  Contarct.
                 </p>
               </span>
             </div>
+            <span className="flex items-center gap-2">
+              <GoChevronRight />
+              <a
+                className="border-b font-medium border-black hover:font-semibold hover:border-[#fe349d]"
+                href="https://the-stamp.com/2023/02/purple-beans-bsc/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Audit
+              </a>
+              <RiCheckboxCircleFill className="text-[#fe349d]" />
+            </span>
+
+            <span className="flex items-center gap-2">
+              <GoChevronRight />
+              <a
+                className="border-b font-medium border-black hover:font-semibold hover:border-[#fe349d]"
+                href="https://the-stamp.com/2023/02/purple-beans-bsc/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Whitepaper
+              </a>
+              <RiCheckboxCircleFill className="text-[#fe349d]" />
+            </span>
             <div className="grid w-full grid-cols-2 gap-4 mt-4 justify-items-center">
-              <CTA name="Open dApp" href="https://purplebeans.finance/usdc/" />
+              <CTA
+                name="Open dApp"
+                href="https://purplebeans.finance/usdc/Whitepaper.pdf"
+              />
             </div>
           </div>
         </div>{" "}
@@ -76,14 +106,14 @@ const Ecosystem = () => {
               </span>
               <span className="card__content">
                 <p>
-                  This page will enable users to swap $PBNS with other
-                  cryptocurrencies.
+                  Swap your favourite Tokens on Bsc with ease and Use our Bridge
+                  to swap Token with Different Networks.
                 </p>
               </span>
             </div>
             <div className="grid w-full grid-cols-2 gap-4 mt-4 justify-items-center">
               <CTA
-                name="Open dApp"
+                name="Swap Now"
                 href="https://exchange.purplebeans.finance/#/swap"
               />
             </div>
@@ -110,14 +140,18 @@ const Ecosystem = () => {
               </span>
               <span className="card__content">
                 <p>
-                  The Presale tab will allow early investors to purchase $PBNS
-                  at a discounted rate. The Presale will be 50% of the total
-                  supply.
+                  Buy $PBNS and become an Early Adopter and Buy at a Special
+                  discounted rate. The Presale will be in 3 Rounds and 50% of
+                  the total supply.
                 </p>
               </span>
             </div>
             <div className="grid w-full grid-cols-2 gap-4 mt-4 justify-items-center">
-              <CTA name="Coming Soon" href="" disabled={true} />
+              <CTA
+                name="Buy Presale"
+                href="https://buypbns.com"
+                disabled={false}
+              />
             </div>
           </div>
         </div>
@@ -137,18 +171,18 @@ const Ecosystem = () => {
                 <span className="flex gap-2 font-medium">
                   <GoChevronRight />
                   Airdrop
-                </span>{" "}
+                </span>
                 <GiJellyBeans className="text-[#fe349d]" />
               </span>
               <span className="card__content">
                 <p>
-                  The Airdrop tab will be available for users to participate in
-                  promotional campaigns and receive free $PBNS.
+                  Participate in the $PBNS Airdrop and Get a change to win Free
+                  $PBNS tokens worth 100$.
                 </p>
               </span>
             </div>
             <div className="grid w-full grid-cols-2 gap-4 mt-4 justify-items-center">
-              <CTA name="Coming Soon" href="" disabled={true} />
+              <CTA name="Get Airdrop" href="" disabled={true} />
             </div>
           </div>
         </div>
@@ -167,14 +201,14 @@ const Ecosystem = () => {
               <span className="flex gap-2 card__title">
                 <span className="flex gap-2 font-medium">
                   <GoChevronRight />
-                  Token Staking dApp
+                  $PBNS Staking
                 </span>{" "}
                 <GiJellyBeans className="text-[#fe349d]" />
               </span>
               <span className="card__content">
                 <p>
-                  This tab will enable users to stake $PBNS and earn rewards for
-                  holding the token.
+                  Stake $PBNS and Earn 3% Daily. Mint and NFT to Increase your
+                  ROI. Stake PBNS-BNB Lp Earn Triple Passive Income.
                 </p>
               </span>
             </div>
@@ -198,14 +232,14 @@ const Ecosystem = () => {
               <span className="flex gap-2 card__title">
                 <span className="flex gap-2 font-medium">
                   <GoChevronRight />
-                  NFTs
+                  MeanBeans NFT
                 </span>{" "}
                 <GiJellyBeans className="text-[#fe349d]" />
               </span>
               <span className="card__content">
                 <p>
-                  The NFT tab will allow users to browse and purchase unique
-                  digital assets created by the Purplebeans.
+                  Mint and Mine our Mean Beans NFT collection to Get Additional
+                  ROI on your Stakes and Get Rewards From Ecosystem.
                 </p>
               </span>
             </div>
