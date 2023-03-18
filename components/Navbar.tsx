@@ -53,7 +53,7 @@ const Navbar = () => {
 
   return (
     <header
-      className={`fixed w-full ${
+      className={`fixed ${
         scrolled ? "bg-white drop-shadow-md" : ""
       }  top-0 left-0 right-0 z-30 transition-all ease duration-150 flex`}
     >
